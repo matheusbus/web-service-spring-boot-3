@@ -2,7 +2,12 @@ package com.matheusbus.Estudos.Spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
 
+@PropertySources(value = {
+		@PropertySource(ignoreResourceNotFound = false, value = "classpath:application.properties"),
+		@PropertySource(ignoreResourceNotFound = false, value = "classpath:application-test.properties")})
 @SpringBootApplication
 public class EstudosSpringApplication {
 
