@@ -1,10 +1,9 @@
-package com.matheusbus.Estudos.Spring.entities.pk;
+package com.matheusbus.Estudos.Spring.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.matheusbus.Estudos.Spring.entities.Order;
-import com.matheusbus.Estudos.Spring.entities.Product;
+import com.matheusbus.Estudos.Spring.entities.pk.OrderItemPK;
 
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;

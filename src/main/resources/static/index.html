@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/login.js"></script>
     <title>Início Spring Boot</title>
 </head>
 <body>
-    
-    <h1>Início Spring Framework</h1>
-    <img src="https://enotas.com.br/blog/wp-content/uploads/2021/04/Spring.png" alt="">
-
+    <div id="form-container">
+        <form action="profile.html">
+            <label for="ulogin">Login:</label>
+            <input type="text" name="ulogin" id="ulogin" placeholder="Digite seu login">
+            <label for="usenha">Senha</label>
+            <input type="password" name="usenha" id="usenha">
+            <input type="submit" onclick="getUser()" value="Entrar">
+        </form>
+    </div>
 </body>
 </html>
