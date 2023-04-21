@@ -20,8 +20,8 @@ import com.matheusbus.Estudos.Spring.repositories.OrderRepository;
 import com.matheusbus.Estudos.Spring.repositories.ProductRepository;
 import com.matheusbus.Estudos.Spring.repositories.UserRepository;
 
-@Configuration
-@Profile("test")
+//@Configuration
+//@Profile("test")
 public class TestConfig implements CommandLineRunner{
 
 	@Autowired

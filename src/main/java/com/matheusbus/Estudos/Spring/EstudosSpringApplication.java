@@ -6,8 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
 @PropertySources(value = {
-		@PropertySource(ignoreResourceNotFound = false, value = "classpath:application.properties"),
-		@PropertySource(ignoreResourceNotFound = false, value = "classpath:application-test.properties")})
+		@PropertySource(ignoreResourceNotFound = false, value = "classpath:application.properties")})
 @SpringBootApplication
 public class EstudosSpringApplication {
 
